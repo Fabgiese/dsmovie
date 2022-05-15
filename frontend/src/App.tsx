@@ -1,6 +1,8 @@
+import Navbar from './components/Navbar';
+
 function App(): JSX.Element {
   return (
-    <h1>Página princial</h1>
+    <Navbar />
   );
 }
 
