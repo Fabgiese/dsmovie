@@ -1,10 +1,6 @@
-import {
-  BrowserRouter,
-  Routes,
-  Route
-} from "react-router-dom";
-import Listing from "./pages/Listing";
-import Form from "./pages/Form";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Listing from './pages/Listing';
+import Form from './pages/Form';
 import Navbar from './components/Navbar';
 
 function App(): JSX.Element {
@@ -17,7 +13,7 @@ function App(): JSX.Element {
           <Route path=":movieId" element={<Form />} />
         </Route>
       </Routes>
-  </BrowserRouter>
+    </BrowserRouter>
   );
 }
 
